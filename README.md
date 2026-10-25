@@ -9,11 +9,13 @@ At the end of this laboratory activity, the student should be able to:
 2. distinguish transpose from complex-conjugate transpose operations,
 3. express a simultaneous linear system in matrix form, and
 4. solve and check a linear system using the inverse method and Cramer’s Rule.
+
 ---
 ## 📋Instructions
 Write a MATLAB script containing clearly labeled sections for both problems. Display the requested
 matrices and numerical checks. Use MATLAB matrix operations and built-in functions; do not type
 a computed answer directly into the output.
+
 ---
 ## 💻Programming Problems
 ### A. Transpose Operations
@@ -27,6 +29,30 @@ a. Which operations give identical results for the real matrix R?
 b. Which two operations give identical results for the complex matrix Z?  
 c. What additional operation is performed by the apostrophe operator ’ when the matrix contains
 complex entries?  
-### The results:  
-<img width="212" height="108" alt="image" src="https://github.com/user-attachments/assets/516c042b-877f-4396-a9ff-2630fe580fa9" /> <img width="404" height="85" alt="image" src="https://github.com/user-attachments/assets/a3700ad3-6fb7-46c1-a6b3-7fe83c753286" />
+### 📊The results:  
+--- Matrix R ---  
+<img width="326" height="161" alt="image" src="https://github.com/user-attachments/assets/f4a54cf7-dcb0-45d0-8d00-478919f59ed5" />
+<img width="227" height="165" alt="image" src="https://github.com/user-attachments/assets/f2568ca2-831f-43ca-83ca-eeb0e01bb7a1" />
+<img width="230" height="167" alt="image" src="https://github.com/user-attachments/assets/d7c54d99-e26b-42a7-9d86-4e52e99b603e" />  
+--- Matrix Z ---  
+<img width="613" height="123" alt="image" src="https://github.com/user-attachments/assets/63e16740-7243-4987-ba0e-f9842503f08e" />
+<img width="510" height="125" alt="image" src="https://github.com/user-attachments/assets/ed624f1e-3021-45e7-8239-ea4ad1bbf704" />
+<img width="511" height="125" alt="image" src="https://github.com/user-attachments/assets/89b6607c-75ce-4185-951f-fb002b0bc1f2" />  
+### ❓Questions: 
+a. Which operations give identical results for real matrix R?
+  - transpose(R), R', and R.' all give identical results because matrix R contains only real numbers, meaning conjugation has no effect.
+
+b. Which two operations give identical results for the complex matrix Z?
+  - transpose(Z) and Z.' give identical results because both performs a standard matrix transpose without applying complex conjugations.  
+
+c. What additional operation is performed by the apostrophe operator when the matrix contains complex entries?
+  - The apostrophe operator (') performs a complex-conjugate transpose, meaning it not only swaps the row and column indices (transpose) but also negates the imaginary part of each complex number.
+
+
+
+
+
+
+
+
 
